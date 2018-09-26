@@ -101,7 +101,7 @@ public class Runner {
 
     public static boolean canBalance(int[] nums) {
         boolean returner = false;
-      D   int[] leftArray = new int[nums.length];
+        int[] leftArray = new int[nums.length];
         int totalSum = 0;
         for(int i = 0; i < nums.length; i++){
             totalSum += nums[i];
